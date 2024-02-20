@@ -21,7 +21,20 @@ y si es VIM esc :wq
 
 - git init
 
-#Pasos para crear una  versión de nuestro código
+
+## Comando para saber el estado de nuestros archivos
+
+- git status
+
+## Comando para listar las versiones de mi proyecto
+- git log
+- git log --oneline 
+
+## Comando para cambiar de versión
+
+- git checkout <Id del commit o nombre de la ramacle>
+
+## Pasos para crear una  versión de nuestro código
 
 1. gregar todos los archivos al commit
 
@@ -33,3 +46,9 @@ agregar extensión en especifico
 
 Subir un archivo en especifico
 - git add index.js
+
+2. Tomar la foto del código(crear una nueva versión) -m message, agragar mensaje de lo que se modificó
+- git commit -m "Nombre del commit"
+
+
+
