@@ -34,6 +34,10 @@ y si es VIM esc :wq
 
 - git checkout <Id del commit o nombre de la ramacle>
 
+## Comando para devolverse a la versión actual(en el visual en el recuadro inferior a la izquierda te dice en que carpeta estas, master, main...)
+
+- git checkout master 
+
 ## Pasos para crear una  versión de nuestro código
 
 1. gregar todos los archivos al commit
