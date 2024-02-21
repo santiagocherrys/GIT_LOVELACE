@@ -20,3 +20,11 @@ git branch -D nombre_rama
 # Comando para cambiar el nombre de una rama
 
 git branch  -M nuevo_nombre
+
+# Comando para remover un archivo de git pero no del proyecto
+
+git rm --cached nombrerchivo.extension
+
+# Comando para hacer shortcuts personalizados alias. despues del punto se pone el shortcut, en este caso es lg
+
+git config --global alias.lg 'log --oneline'
