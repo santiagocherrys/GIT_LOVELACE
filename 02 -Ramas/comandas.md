@@ -11,7 +11,7 @@ git branch nombre_rama
 
 git checkout nombre_rama
 git switch nombre_rama
-git checkout -b nombre_rama (Crea la rana y hace el cambio)
+git checkout -b nombre_rama (Crea la rama y hace el cambio)
 
 # Comando para eliminar una rama
 
@@ -28,3 +28,6 @@ git rm --cached nombrerchivo.extension
 # Comando para hacer shortcuts personalizados alias. despues del punto se pone el shortcut, en este caso es lg
 
 git config --global alias.lg 'log --oneline'
+
+# Comando para unir 2 ramas
+git merge rama_auxiliar
